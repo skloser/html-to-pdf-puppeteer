@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  web:
+    image: plxregistry.azurecr.io/dti/htmltopdfconverter:latest
+    build: .
+    ports:
+      - "80:8080"
